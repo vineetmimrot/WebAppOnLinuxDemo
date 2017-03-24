@@ -1,13 +1,11 @@
-
-safsfsdfsdfsdf
 FROM node:onbuild
 
 # Create app directory
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-CMD [ "ls"]
-CMD [ "pwd"]
+RUN ls
+RUN pwd
 
 # Install app dependencies
 COPY /opt/vsts/work/1/s/NodeExpressApp1/NodeExpressApp1/package.json /usr/src/app/
