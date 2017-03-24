@@ -4,6 +4,8 @@ FROM node:onbuild
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
+RUN ls
+
 # Install app dependencies
 COPY package.json /usr/src/app/
 RUN npm install
