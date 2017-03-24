@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 RUN ls
 
 # Install app dependencies
-COPY package.json /usr/src/app/
+COPY NodeExpressApp1/NodeExpressApp1/package.json /usr/src/app/
 RUN npm install
 
 # Bundle app source
