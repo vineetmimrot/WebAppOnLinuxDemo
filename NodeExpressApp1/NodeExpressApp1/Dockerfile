@@ -8,7 +8,7 @@ CMD [ "ls"]
 CMD [ "pwd"]
 
 # Install app dependencies
-COPY ./NodeExpressApp1/NodeExpressApp1/package.json /usr/src/app/
+COPY ./NodeExpressApp1/NodeExpressApp1/package1.json /usr/src/app/
 RUN npm install
 
 # Bundle app source
