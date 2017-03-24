@@ -12,4 +12,4 @@ ls -1 $BUILD_SOURCESDIRECTORY
 pwd
 ls -l $AGENT_BUILDDIRECTORY/s
 cat /opt/vsts/work/1/s/NodeExpressApp1/NodeExpressApp1/Dockerfile
-echo "Over and out. fjhfghrt"
+echo "Over and out"
