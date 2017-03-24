@@ -1,4 +1,4 @@
-FROM node:onbuild
+FROM node:boron
 
 # Create app directory
 RUN mkdir -p /usr/src/app
