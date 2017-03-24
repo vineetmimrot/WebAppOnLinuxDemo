@@ -8,7 +8,7 @@ RUN ls
 RUN pwd
 
 # Install app dependencies
-COPY package.json /usr/src/app/
+COPY ./package.json /usr/src/app/
 RUN npm install
 
 # Bundle app source
