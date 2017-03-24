@@ -8,7 +8,7 @@ RUN ls
 RUN pwd
 
 # Install app dependencies
-COPY /opt/vsts/work/1/s/NodeExpressApp1/NodeExpressApp1/package.json /usr/src/app/
+COPY package.json /usr/src/app/
 RUN npm install
 
 # Bundle app source
