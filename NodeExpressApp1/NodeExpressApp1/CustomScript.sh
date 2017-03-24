@@ -9,4 +9,5 @@ ls -1 $AGENT_BUILDDIRECTORY
 echo "BUILD_SOURCESDIRECTORY is $BUILD_SOURCESDIRECTORY"
 echo "BUILD_SOURCESDIRECTORY contents:"
 ls -1 $BUILD_SOURCESDIRECTORY
+cat ./NodeExpressApp1/NodeExpressApp1/Dockerfile
 echo "Over and out."
