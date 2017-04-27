@@ -4,5 +4,5 @@ var port = process.env.PORT || 1337;
 
 http.createServer(function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello World Demo for Build 2017 - auto image update from App Service Deploy task\n');
+    res.end('Hello World Demo for Build 2017 - update from App Service Deploy task\n');
 }).listen(port);
